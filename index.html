@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PS5 Sleepy 14.00</title>
+</head>
+<body>
+    <div id="firmware-status">Checking Firmware...</div>
+    
+    <!-- Load Order -->
+    <script src="src/firmware.js"></script>
+    <script src="src/webkit/leak.js"></script> <!-- Ensure this defines leakval -->
+    <script src="src/rop.js"></script> <!-- Defines worker_rop -->
+    <script src="src/gadgets.js"></script> <!-- Defines gadgets/syscalls -->
+    <script src="src/main.js"></script>
+</body>
+</html>
